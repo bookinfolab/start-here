@@ -20,6 +20,7 @@
 ### .env
 ### Secrets
 ### nginx
+### Authentication
 ### Docker Swarm
 ### Terraform with Docker Provider
 ### Terraform with AWS Provider
