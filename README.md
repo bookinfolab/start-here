@@ -6,12 +6,14 @@ The application displays information about a book, similar to a single catalog e
 
 The Bookinfo application is broken into four separate microservices:
 
-`productpage` -> The `productpage` microservice calls the `details` and `reviews`` microservices to populate the page.
-`details` -> The `details` microservice contains book information.
-`reviews` -> The `reviews`` microservice contains book reviews. It also calls the `ratings` microservice.
-`ratings`. The `ratings` microservice contains book ranking information that accompanies a book review.
+`productpage` -> The `productpage` microservice calls the `details` and `reviews` microservices to populate the page.
 
-> This journey is based on [istio example app](https://istio.io/latest/docs/examples/bookinfo/).
+`details` -> The `details` microservice contains book information.
+
+`reviews` -> The `reviews` microservice contains book reviews. It also calls the `ratings` microservice.
+
+`ratings` -> The `ratings` microservice contains book ranking information that accompanies a book review.
+
 
 ---
 ## Tasks
@@ -27,3 +29,6 @@ The Bookinfo application is broken into four separate microservices:
 - [[WIP] Task-009 - Build and Push container image for `mysql`]()
 - [[WIP] Task-010 - Include `mysql` on compose to integrating with `ratings`]()
 - [[WIP] Task-011 - Add a `Load Balancer` for `ratings`]()
+
+---
+> This journey is based on [istio example app](https://istio.io/latest/docs/examples/bookinfo/).
